@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71D29D881D4B3BAF00C6F4CA /* ParasiteRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D29D871D4B3BAF00C6F4CA /* ParasiteRuntime.framework */; };
+		71D29D8B1D4B3BAF00C6F4CA /* DockExposeHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D29D8A1D4B3BAF00C6F4CA /* DockExposeHighlight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71D29D841D4B3BAF00C6F4CA /* DockExposeHighlight.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockExposeHighlight.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D29D871D4B3BAF00C6F4CA /* ParasiteRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParasiteRuntime.framework; path = Library/Frameworks/ParasiteRuntime.framework; sourceTree = DEVELOPER_DIR; };
+		71D29D8A1D4B3BAF00C6F4CA /* DockExposeHighlight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockExposeHighlight.m; sourceTree = "<group>"; };
+		71D29D8C1D4B3BAF00C6F4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D29D811D4B3BAF00C6F4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D29D881D4B3BAF00C6F4CA /* ParasiteRuntime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D29D7B1D4B3BAF00C6F4CA = {
+			isa = PBXGroup;
+			children = (
+				71D29D891D4B3BAF00C6F4CA /* DockExposeHighlight */,
+				71D29D861D4B3BAF00C6F4CA /* Frameworks */,
+				71D29D851D4B3BAF00C6F4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71D29D851D4B3BAF00C6F4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D29D841D4B3BAF00C6F4CA /* DockExposeHighlight.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D29D861D4B3BAF00C6F4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D29D871D4B3BAF00C6F4CA /* ParasiteRuntime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71D29D891D4B3BAF00C6F4CA /* DockExposeHighlight */ = {
+			isa = PBXGroup;
+			children = (
+				71D29D8A1D4B3BAF00C6F4CA /* DockExposeHighlight.m */,
+				71D29D8C1D4B3BAF00C6F4CA /* Info.plist */,
+			);
+			path = DockExposeHighlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D29D831D4B3BAF00C6F4CA /* DockExposeHighlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D29D8F1D4B3BAF00C6F4CA /* Build configuration list for PBXNativeTarget "DockExposeHighlight" */;
+			buildPhases = (
+				71D29D801D4B3BAF00C6F4CA /* Sources */,
+				71D29D811D4B3BAF00C6F4CA /* Frameworks */,
+				71D29D821D4B3BAF00C6F4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockExposeHighlight;
+			productName = DockExposeHighlight;
+			productReference = 71D29D841D4B3BAF00C6F4CA /* DockExposeHighlight.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D29D7C1D4B3BAF00C6F4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = husile;
+				TargetAttributes = {
+					71D29D831D4B3BAF00C6F4CA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 71D29D7F1D4B3BAF00C6F4CA /* Build configuration list for PBXProject "DockExposeHighlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71D29D7B1D4B3BAF00C6F4CA;
+			productRefGroup = 71D29D851D4B3BAF00C6F4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D29D831D4B3BAF00C6F4CA /* DockExposeHighlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D29D821D4B3BAF00C6F4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D29D801D4B3BAF00C6F4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D29D8B1D4B3BAF00C6F4CA /* DockExposeHighlight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71D29D8D1D4B3BAF00C6F4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71D29D8E1D4B3BAF00C6F4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71D29D901D4B3BAF00C6F4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				INFOPLIST_FILE = DockExposeHighlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.husile.DockExposeHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		71D29D911D4B3BAF00C6F4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				INFOPLIST_FILE = DockExposeHighlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.husile.DockExposeHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D29D7F1D4B3BAF00C6F4CA /* Build configuration list for PBXProject "DockExposeHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D29D8D1D4B3BAF00C6F4CA /* Debug */,
+				71D29D8E1D4B3BAF00C6F4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D29D8F1D4B3BAF00C6F4CA /* Build configuration list for PBXNativeTarget "DockExposeHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D29D901D4B3BAF00C6F4CA /* Debug */,
+				71D29D911D4B3BAF00C6F4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71D29D7C1D4B3BAF00C6F4CA /* Project object */;
+}

@@ -24,5 +24,18 @@
 	<string>Copyright © 2016 husile. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>PSFilters</key>
+	<dict>
+		<key>Bundles</key>
+		<array>
+			<string>com.apple.dock</string>
+		</array>
+		<key>Executables</key>
+		<array>
+			<string>Dock</string>
+		</array>
+		<key>Mode</key>
+		<string>Any</string>
+	</dict>
 </dict>
 </plist>

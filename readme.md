@@ -8,17 +8,17 @@ This is a [Parasite](https://github.com/ParasiteTeam) Extension that changes the
 
 2. Get the code and compile:
 
-```
-git clone https://github.com/husile/DockExposeHighlight
-cd DockExposeHighlight && xcodebuild
-```
+    ```
+    git clone https://github.com/husile/DockExposeHighlight
+    cd DockExposeHighlight && xcodebuild
+    ```
 
 3. Copy the compiled bundle into `/Library/Parasite/Extensions` and restart Dock:
 
-```
-sudo cp -rfv build/Release/DockExposeHighlight.bundle /Library/Parasite/Extensions
-killall Dock
-```
+    ```
+    sudo cp -rfv build/Release/DockExposeHighlight.bundle /Library/Parasite/Extensions
+    killall Dock
+    ```
 
 ##Uninstall
 
